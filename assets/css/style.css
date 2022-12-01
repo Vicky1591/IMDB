@@ -1,0 +1,56 @@
+*{
+	paddding : 0px;
+	margin : 0px;
+	box-sizing : border-box;
+}
+body, .ratValue{
+	background-color :#22254b;
+}
+
+.head, .imgFig figcaption{
+	background-color :#373b69;
+}
+#search{
+	border-radius : 50px;
+}
+
+.imgFig{
+	margin-bottom : 0px;
+	position : relative;
+	overflow : hidden;
+	/* height : 380px; */
+	/* width : 100%; */
+	/* object-fit : cover; */
+}
+.overview{
+	position : absolute;
+	background-color :white;
+	bottom : 0px;
+	left : 0px;
+	right : 0px;
+	height : 60%;
+	overflow-y : auto;
+	overflow-y : auto;
+	transition : all 1s ease-in-out;
+	transform : translateY(101%);
+	text-align : justify;				
+	
+}
+
+.imgFig:hover .overview{
+	transform : translateY(0%);
+	
+	
+}
+
+.imgTitle{
+	height : 20px;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+.cardImg{
+	height : 380px;
+	object-fit : cover;
+	width : 100%
+}
